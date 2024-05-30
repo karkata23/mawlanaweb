@@ -43,7 +43,7 @@ To build and run the website using Docker, follow these steps:
 
 1. **Build the Docker image**
    ```bash
-   docker build -t mawlanaweb .
+   docker build -t mawlanaweb.
    ```
 
 2. **Run the Docker container**
