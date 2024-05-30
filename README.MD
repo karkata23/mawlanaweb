@@ -19,8 +19,8 @@ This repository contains the source code for my personal portfolio website. The 
 ## Setup and Installation
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/sazumivicky/sazumi-porto-expressjs.git
-   cd sazumi-porto-expressjs
+   git https://github.com/karkata23/mawlanaweb.git
+   cd mawlanaweb
    ```
 
 2. **Install dependencies**
@@ -43,12 +43,12 @@ To build and run the website using Docker, follow these steps:
 
 1. **Build the Docker image**
    ```bash
-   docker build -t sazumi-porto-expressjs .
+   docker build -t mawlanaweb .
    ```
 
 2. **Run the Docker container**
    ```bash
-   docker run -p 3000:3000 sazumi-porto-expressjs
+   docker run -p 3000:3000 mawlanaweb
    ```
 
    Access the website at `http://localhost:3000`.
